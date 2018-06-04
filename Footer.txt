@@ -1,0 +1,8 @@
+<footer>
+<h3> Alice Liu </h3>
+<h6> Washington University in St.Louis </h6>
+<h6> Philosophy-Neuroscience-Psychology </h6>
+<h6> Class of 2019 </h6>
+<h6> email: liu.siyan@wustl.edu </h6>
+
+</footer>
