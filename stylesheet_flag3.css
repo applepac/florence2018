@@ -1,0 +1,78 @@
+.flag {
+  position:absolute;
+  width:500px;
+  height:300px;
+  background-color:black;
+  overflow-y: hidden;
+}
+
+.stripe {
+  background-color: yellow;
+}
+
+
+#l3 {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 40%;
+  transform: skewY(30deg);
+}
+
+#l4 {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 40%;
+  transform: skewY(-30deg)
+}
+
+
+#l1 {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  bottom: 35%;
+}
+
+#l2 {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  right: 40%;
+}
+
+
+#l5 {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  right: 45%;
+  background-color: red;
+}
+
+#l6 {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  bottom: 45%;
+  background-color: red;
+}
+
+#l7 {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  bottom: 45%;
+  background-color: red;
+  transform: skewY(30deg);
+}
+
+#l8 {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  bottom: 45%;
+  background-color: red;
+  transform: skewY(-30deg);
+}
