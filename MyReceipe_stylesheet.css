@@ -1,0 +1,89 @@
+body {
+  background-color: #e0ffb3;
+  background-image: url('https://annarossoeventi.com/wp-content/uploads/2016/02/watercolor-background.jpg');
+}
+
+
+a {
+  display: block;
+  margin: 10px;
+  color: SeaGreen;
+  font-size: 35px;
+}
+
+
+.welcome {
+  position: absolute;
+  left:0;
+  top:0;
+  margin:0;
+  background-color: #8ac7db;
+  width: 100%;
+  height: 300px;
+  opacity: 0.85;
+  
+  animation-name: textChange;
+  animation-duration:10s;
+  animation-iteration-count: 10;
+  animation-timing-function: ease-out;
+  
+  transition: background-color 4s, width 4s, transform 2s;
+}
+
+
+
+
+
+/*@keyframes textChange {*/
+/*  0% {*/
+/*    background-color:white*/
+/*    ;*/
+/*  }*/
+/*  25% {*/
+/*    background-color: green;*/
+/*  }*/
+/*  50% {background-color:red;*/
+/*  }*/
+/*  100% {background-color: blue;*/
+/*}*/
+
+
+
+
+
+
+.welcome:hover{
+  background-color:pink;
+}
+
+h1.welcome{
+  text-align: center;
+  position: static;
+  color: white;
+  font-size: 65px;
+  font-family: 'Rock Salt', cursive;
+  padding-top: 20px;
+}
+
+.catalog {
+  position: absolute;
+  font-family: arial;
+  top: 320px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+
+img {
+  height: 320px;
+  border-color: white;
+  border-style: dotted solid;
+  border-width: 10px;
+  
+}
