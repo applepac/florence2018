@@ -1,0 +1,339 @@
+.container-fluid {
+  position: fixed;
+}
+
+#container2 {
+  z-index: -20;
+  opacity: 0;
+  background-color:#edece8;
+  height:100vh;
+}
+
+#container3 {
+  opacity: 0;
+  background-color: orange;
+  height:100vh;
+}
+
+.row {
+  height: 100vh;
+  background-color: orange;
+  
+}
+
+#row2 {
+  background-color:#edece8;
+  opacity: 0;
+  position: fixed;
+}
+
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+img {
+  z-index: 20;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#pink {
+  background-color: lightpink;
+}
+
+#green {
+  background-color: lightgreen;
+}
+
+h4 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+#tourist1, #tourist2, #vendor1, #vendor2,#vendor3,#vendor4,#vendor5 {
+ -webkit-filter: drop-shadow(10px 0 20px #222 );
+  filter: drop-shadow(10px 0 10px #222);
+}
+
+#tourist1 {
+  position: fixed;
+  left: 450px;
+  top: 50px;
+}
+
+#tourist2 {
+  position: fixed;
+  left: 500px;
+  top: 50px;
+}
+
+#meme1, #meme2 {
+  height: 900px;
+  position: absolute;
+  z-index: 0;
+  opacity:0;
+}
+
+#meme2 {
+  left: 850px;
+  top: 20px;
+}
+
+#meme3 {
+  opacity: 0; height: 900px; z-index: 0; position: fixed;
+}
+
+#meme4 {
+  opacity: 0; height: 900px; left:600px; position: fixed; z-index: 0;
+}
+
+#vendor1 {
+  position: absolute;
+  left: 630px;
+  top: 250px;
+  opacity: 0;
+}
+
+#vendor2 {
+  position: fixed;
+  left: 300px;
+  top: 250px;
+  opacity: 0;
+}
+
+#vendor3 {
+  position: fixed;
+  height:500px;
+  left: 0;
+  top:230px;
+  opacity:0;
+}
+
+#vendor4 {
+  position: fixed;
+  height:600px;
+  left: 800px;
+  top:100px;
+  opacity:0;
+}
+
+#vendor5 {
+  position: fixed;
+  height:500px;
+  left: 500px;
+  top:300px;
+  opacity:0;
+}
+
+#dialogue1 {
+  position: absolute;
+  left: 1100px;
+  top: 160px;
+}
+
+#line1, #line2, #line3, #line4, #line5, #line6, #line6_1, #line7, #line8, #line9, #line10, #line27, #line28, #line29 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  width: 250px;
+  z-index: 20;
+}
+
+#line1 {
+  position: absolute;
+  top: 100px;
+  left: 1150px;
+}
+
+#line2 {
+  position: absolute;
+  top: 130px;
+  left: 380px;
+}
+
+#line3 {
+  position: absolute;
+  top: 30px;
+  left:300px;
+}
+
+#line4, #line5{
+  position: absolute;
+  top: 80px;
+  left: 300px;
+  
+}
+
+
+#line6 {
+  position:absolute;
+  top: 50px;
+  left: 1050px;
+}
+
+#line6_1 {
+  position: absolute;
+  top: 50px;
+  left: 730px;
+}
+
+#line7 {
+  position: absolute;
+  top: 160px;
+  left: 50px;
+}
+
+#line8 {
+  position: absolute;
+  top: 50px;
+  left:1050px;
+}
+
+#line9 {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}
+
+
+#bottle {
+  position: absolute;
+  left: 900px;
+  top: 100px;
+  height: 800px;
+  transform: rotate(-20deg);
+}
+
+
+
+#line10, #line11,#line12,#line13,#line14,#line15,#line16,#line17 {
+  width: 400px;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  opacity: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+#sunglasses {
+  position: fixed;
+  height: 700px;
+  left: 430px;
+  top: 60px;
+  opacity: 0;
+  -webkit-filter: drop-shadow(10px 0 20px #222 );
+  filter: drop-shadow(10px 0 10px #222);
+}
+
+#sticker1, #sticker2 {
+  font-family: 'Josefin Slab', serif;
+  position: fixed;
+  opacity: 0;
+}
+
+#sticker1 {
+  top:220px;
+  left:450px;
+}
+
+#sticker2 {
+  top: 550px;
+  left: 800px;
+}
+
+.circle {
+  position: fixed;
+  opacity: 0;
+}
+
+#line18, #line19, #line20, #line21, #line22, #line23, #line24, #line25, #line26 {
+  font-family: 'Josefin Slab', serif;
+  width:300px;
+  position: fixed;
+  opacity: 0;
+}
+
+#line18 {
+  top: 180px;
+  left: 86px;
+}
+
+#line19 {
+  top: 400px;
+  left: 1185px;
+}
+
+#line20 {
+  top: 462px;
+  left:370px;
+  z-index: 20;
+}
+
+#line21 {
+  top: 100px;
+  left: 1005px;
+}
+
+#line22 {
+  top: 170px;
+  left: 86px;
+  font-size: 25px;
+}
+
+#line23 {
+  top: 400px;
+  left: 1185px;
+}
+
+#line24 {
+  top: 482px;
+  left:360px;
+  z-index: 20;
+}
+
+#line25 {
+  top: 100px;
+  left: 1005px;
+  font-size:28px;
+}
+
+#line26 {
+  top:600px;
+  left: 200px;
+  width:1200px;
+  font-size: 50px;
+}
+
+#line28 {
+  position:absolute;
+  top: 150px;
+  left: 300px;
+}
