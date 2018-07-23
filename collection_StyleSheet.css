@@ -273,13 +273,13 @@ img {
 iframe
 {
   height: 500px;
-  width: 1200px;
+  width: 1150px;
 }
 
 .close_button
 {
   position: fixed;
-  left: 1060px;
+  left: 1310px;
   top: 40px;
   z-index: -1;
   height: 20px;
