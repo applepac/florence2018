@@ -1,0 +1,250 @@
+body
+{
+  background-image: url("https://johnmunsch.files.wordpress.com/2013/09/dot-paper-on-screen-chrome-copy.png");
+}
+
+.backgroundimage
+{
+  position: absolute;
+  width: 900px;
+  height: 700px;
+  left: 219px;
+  top: 15px;
+  opacity: 0.5;
+  
+}
+
+.backgroundimage img
+{
+  position: absolute;
+  width: 1100px;
+  height: 550px;
+  max-width: 1500px;
+  max-height: 1500px;
+}
+
+.IMAGE
+{
+  border: 0 solid rgba(0,0,0, 0.7);
+border-top: 10px solid rgba(0,0,0, 0.7);
+border-bottom: 10px solid rgba(0,0,0, 0.7);
+border-style: dashed;
+
+}
+
+
+.button
+{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top:600px;
+}
+
+.button:hover
+{
+  background-color: orange;
+}
+
+#button1
+
+{ position: absolute;
+  left: 1450px;
+  top: 630px;
+  z-index: 1;
+}
+
+#button2
+{
+  position: absolute;
+  left: 50px;
+  top: 630px;
+  z-index: 1;
+}
+
+.button img
+{
+  max-width: 100%;
+  max-height: 100%;
+  position:absolute;
+}
+
+.scrollrow
+{
+  position: absolute;
+  left: 100px;
+  top: 495px;
+  overflow-x: scroll;
+  width: 1300px;
+}
+
+.IMAGE
+{
+  /*max-height: 400px;*/
+  /*max-width: 300px;*/
+  margin: 30px;
+  display: flex;
+  width: 4850px;
+  overflow-x: scroll;
+  
+}
+
+.card
+{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+img
+{
+  max-width: 300px;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+}
+
+
+
+.POPUP
+{
+  position:fixed;
+  height: 520px;
+  width: 1000px;
+  top:50px;
+  left: 200px;
+  opacity: 0;
+  z-index: -1;
+}
+
+#popup_3
+{
+  left: 371px;
+}
+
+iframe
+{
+  height: 520px;
+  width:1135px;
+}
+
+#iframe3
+{
+  position: fixed;
+  left: 335px;
+  height: 685px;
+  width: 856px ;
+}
+
+#popup_3 .close_button
+{
+  left:1169px;
+}
+
+#iframe7 #iframe8 #iframe12
+{
+  height: 459px;
+}
+
+#iframe13
+{
+  position: fixed;
+  height: 684px;
+  width: 800px;
+  left: 360px;
+}
+
+#popup_13 .close_button
+{
+  left:937px
+}
+
+#iframe17
+{
+  height: 564px;
+  width: 835px;
+  left: 371px;
+  position:fixed;
+}
+
+#popup_17 .close_button
+{
+  left: 1188px;
+}
+
+#iframe18
+{
+  height:564px;
+  width: 835px;
+  left: 371px;
+  position: fixed;
+}
+
+#popup_18 .close_button
+{
+  left: 1188px;
+}
+
+#iframe19
+{
+  height: 564px;
+  width: 835px;
+  left: 371px;
+  position: fixed;
+}
+
+#popup_19 .close_button
+{
+  left: 1188px;
+}
+
+.close_button
+{
+  position: fixed;
+  left: 1255px;
+  top: 33px;
+  z-index: -1;
+  height: 20px;
+  width: 20px;
+}
+
+.close_button img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.menu img
+{
+  position: fixed;
+  left: 1415px;
+  top: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.navibar
+{
+  opacity: 0;
+  z-index: -1;
+  background-color: grey;
+  width: 400px;
+  height: 100vh;
+  position: fixed;
+  left: 1200px;
+  top:0;
+}
+
+.navibar h3
+{
+  font-family: 'Dosis', sans-serif;
+  margin: 20px;
+}
+
+.navibar h5
+{
+  font-family: 'Doris', sans-serif;
+  opacity: 0;
+}

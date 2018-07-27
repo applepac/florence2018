@@ -1,24 +1,106 @@
-body
-{display: inline;
-}
 
-#PIC
+
+.PIC
 {
   height: 458px;
   width:702px;
+  top:0;
+  left:0;
   margin:30px;
   position: fixed;
 }
 
-
-
-#TEXT
+img
 {
-  background-color: grey;
+  max-width:100%;
+  max-height:100%;
+}
+
+#PIC3
+{
+  height: 620px;
+  width: 450px;
+}
+
+#PIC13
+{
+  height: 620px;
+  width: 400px;
+  margin:30px;
+  position: fixed;
+}
+
+#PIC17
+{
+  height: 500px;
+  width: 385px;
+}
+
+#PIC18
+{
+  height: 500px;
+  width: 385px;
+}
+
+#PIC19
+{
+  height: 500px;
+  width: 385px;
+}
+
+.TEXT
+{
+  background-color: lightgrey;
   width: 340px;
   height: 458px;
   position: fixed;
   left: 762px;
   top: 30px;
+  overflow-y: scroll;
+}
+
+#TEXT3
+{
+  left: 516px;
+  height: 620px;
+  width: 300px;
+}
+
+#TEXT7 #TEXT8 #TEXT12
+{
+  height: 396px;
+}
+
+#TEXT13
+{
+  left: 463px;
+  height: 620px;
+  width: 300px;
+}
+
+#TEXT17
+{
+  left: 456px;
+  height: 500px;
+}
+
+
+#TEXT18
+{
+  left: 456px;
+  height: 500px;
+}
+
+#TEXT19
+{
+  left:456px;
+  height: 500px;
+}
+
+.TEXT h5
+{
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+  margin: 20px;
 }
 

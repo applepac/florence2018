@@ -1,9 +1,8 @@
-body
-{
-  background-image: url("https://i.pinimg.com/564x/8e/9c/d2/8e9cd2067955538b2dc45b1839f38bf3.jpg");
-  background-repeat: repeat;
-  background-size: 33.3% 200%;
-}
+/*body*/
+/*{*/
+  /*background-repeat: repeat;*/
+  /*background-size: 33.3% 200%;*/
+/*}*/
 
 /*.introduction*/
 /*{*/
@@ -12,7 +11,64 @@ body
 /*  width: 100%;*/
 /*}*/
 
+/*.lens*/
+/*{*/
+/*  font-family: 'Monoton', cursive;*/
+/*  font-size: 200px;*/
+/*  position: absolute;*/
+/*  left: 100px;*/
+/*  top: 100px;*/
+/*}*/
 
+.lens2
+{
+  font-family: 'Megrim', cursive;
+   font-size: 120px;
+   position: absolute;
+   left: 819px;
+   top: 284px;
+}
+
+.vertical
+{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: 'Megrim', cursive;
+   font-size: 120px;
+   position: absolute;
+   left: 900px;
+   top: 50px;
+}
+
+.backgroundimage
+{
+  position: fixed;
+  left:10px;
+  height: 100vh;
+  width: 120%;
+  z-index: 0;
+}
+
+#panel_1.blur{
+  filter: 'blur(4px)';
+ -webkit-filter: 'blur(4px)';
+}
+
+#view
+{
+  opacity: 0;
+  height:25px;
+  width:25px;
+  position: fixed;
+}
+
+
+.halfspace
+{
+  height: 30vh;
+  width: 100vh;
+  perspective: 1000px;
+}
 .space
 {
   height: 100vh;
@@ -29,6 +85,11 @@ img {
 {
   position:absolute;
   transform-origin: 50% 50% 0;
+}
+
+.card:hover
+{
+  cursor: crosshair;
 }
 
 #panel_1  /* perspective function in transform property */
@@ -50,6 +111,7 @@ img {
 #panel_1:hover
 {
   animation-play-state: paused;
+  transform: rotateY(0);
 }
 
 #panel_2
@@ -59,7 +121,7 @@ img {
   left: 900px;
   top: 0;
   transform: rotateY(130deg);
-  animation: animation_2 8s linear 0s infinite;
+  animation: animation_2 15s linear 0s infinite;
 }
 
 @keyframes animation_2
@@ -80,7 +142,7 @@ img {
   left: 800px;
   top: 30px;
   transform: rotateY(30deg);
-  animation: animation_3 15s linear 0s infinite;
+  animation: animation_3 13s linear 0s infinite;
   z-index: 20;
 }
 
@@ -124,7 +186,7 @@ img {
   width: 280px;
   left: 50px;
   transform: rotateY(80deg);
-  animation: animation_5 10s linear 0s infinite;
+  animation: animation_5 20s linear 0s infinite;
   z-index: 0;
 }
 
@@ -146,7 +208,7 @@ img {
   top: -400px;
   left: 50px;
   transform: rotateY(10deg);
-  animation: animation_6 12s linear 0s infinite;
+  animation: animation_6 18s linear 0s infinite;
 }
 
 @keyframes animation_6
@@ -167,7 +229,7 @@ img {
   top: 0;
   left: 50px;
   transform: rotateY(10deg);
-  animation: animation_6 12s linear 0s infinite;
+  animation: animation_6 18s linear 0s infinite;
 }
 
 #panel_7:hover
@@ -200,7 +262,7 @@ img {
   left: 50px;
   top: 200px;
   transform: rotateY(80deg);
-  animation: animation_5 10s linear 0s infinite;
+  animation: animation_5 12s linear 0s infinite;
   z-index: 0;
 }
 
@@ -214,9 +276,9 @@ img {
   height: 300px;
   width:500px;
   top: -400px;
-  left: 250px;
+  left: 130px;
   transform: rotateY(10deg);
-  animation: animation_6 12s linear 0s infinite;
+  animation: animation_6 18s linear 0s infinite;
 }
 
 
@@ -229,10 +291,10 @@ img {
 {
   height: 280px;
   width: 420px;
-  left: 800px;
-  top: -400px;
+  left: 1000px;
+  top: -600px;
   transform: rotateY(80deg);
-  animation: animation_5 10s linear 0s infinite;
+  animation: animation_5 20s linear 0s infinite;
   z-index: 0;
 }
 
@@ -249,7 +311,7 @@ img {
   left: 550px;
   top: -200px;
   transform: rotateY(10deg);
-  animation: animation_6 12s linear 0s infinite;
+  animation: animation_6 14s linear 0s infinite;
 }
 
 #panel_12:hover
@@ -257,23 +319,204 @@ img {
   animation-play-state: paused;
 }
 
+#panel_13
+{
+  height: 400px;
+  width: 300px;
+  left: 1000px;
+  top: -50px;
+  transform: rotateY(80deg);
+  animation: animation_5 14s linear 0s infinite;
+  z-index: 0;
+}
+
+#panel_13:hover
+{
+  animation-play-state: paused;
+}
+
+#panel_14
+{
+  height: 280px;
+  width:500px;
+  top: 0;
+  left: 50px;
+  transform: rotateY(10deg);
+  animation: animation_6 12s linear 0s infinite;
+}
+
+#panel_14:hover
+{
+  animation-play-state: paused;
+}
+
+#panel_15
+{
+  height: 282px;
+  width: 380px;
+  left: 800px;
+  top: 200px;
+  transform: rotateY(-15deg);
+  animation: animation_4 20s linear 0s infinite;
+  z-index: 10;
+}
+
+#panel_15:hover
+{
+  animation-play-state: paused;
+}
+
+#panel_16
+{
+  height:250px;
+  width: 380px;
+  left: 250px;
+  top: -180px;
+  transform: rotateY(130deg);
+  animation: animation_2 18s linear 0s infinite;
+}
+
+#panel_16:hover
+{
+  animation-play-state: paused;
+}
+
+#panel_17
+{
+  height:320px;
+  width: 300px;
+  left: 500px;
+  top: -20px;
+  transform: rotateY(-15deg);
+  animation: animation_4 20s linear 0s infinite;
+  z-index: 10;
+}
+
+#panel_17:hover
+{
+  animation-play-state: paused;
+}
+
+#panel_18
+{
+  height:450px;
+  width: 340px;
+  left: 1000px;
+  top: 68px;
+  transform: rotateY(20deg);
+  animation: animation_2 20s linear 0s infinite;
+  z-index: 10;
+}
+
+#panel_18:hover
+{
+  animation-play-state: paused;
+}
+
+
+#panel_19
+{
+  height:350px;
+  width: 260px;
+  left: 120px;
+  top: -600px;
+  transform: rotateY(60deg);
+  animation: animation_3 20s linear 0s infinite;
+  z-index: 10;
+}
+
+#panel_19:hover
+{
+  animation-play-state: paused;
+}
+
 .POPUP
 {
   position:fixed;
-  height: 500px;
+  height: 520px;
   width: 1000px;
   top:50px;
   left: 200px;
   opacity: 0;
   z-index: -1;
-  
-  
 }
+
+
 
 iframe
 {
-  height: 500px;
-  width: 1150px;
+  height: 520px;
+  width: 1135px;
+}
+
+#iframe3
+{
+  position: fixed;
+  left: 335px;
+  height: 685px;
+  width: 856px ;
+}
+
+#popup_3 .close_button
+{
+  left:1169px;
+}
+
+#iframe7 #iframe8 #iframe12
+{
+  height: 459px;
+}
+
+#iframe13
+{
+  position: fixed;
+  height: 684px;
+  width: 800px;
+  left: 360px;
+}
+
+#popup_13 .close_button
+{
+  left:1137px
+}
+
+#iframe17
+{
+  height: 564px;
+  width: 835px;
+  left: 371px;
+  position:fixed;
+}
+
+#popup_17 .close_button
+{
+  left: 1188px;
+}
+
+#iframe18
+{
+  height:564px;
+  width: 835px;
+  left: 371px;
+  position: fixed;
+}
+
+#popup_18 .close_button
+{
+  left: 1188px;
+}
+
+#iframe19
+{
+  height: 564px;
+  width: 835px;
+  left: 371px;
+  position: fixed;
+}
+
+#popup_19 .close_button
+{
+  left: 1188px;
 }
 
 .close_button
@@ -295,7 +538,7 @@ iframe
 .menu img
 {
   position: fixed;
-  left: 1400px;
+  left: 1415px;
   top: 20px;
   height: 50px;
   width: 50px;
@@ -319,4 +562,39 @@ iframe
   margin: 20px;
 }
 
+h5
+{
+  font-family: 'Doris', sans-serif;
+}
 
+.navibar h5
+{
+  font-family: 'Doris', sans-serif;
+  display: none;
+  margin: 40px;
+}
+
+.disablemotion
+{
+  font-family: 'Dosis', sans-serif;
+  position: fixed;
+  top: 80px;
+  left: 1420px;
+  z-Index: 100;
+}
+
+.thickbox-open {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -ms-filter: blur(2px);
+  -o-filter: blur(2px);
+  filter: blur(2px);
+}
+
+
+.filter
+{
+  height:300%;
+  width: 100%;
+  
+}

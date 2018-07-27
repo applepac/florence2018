@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type = "text/css" rel = "stylesheet" href = "PopUp.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src = "jquery.elevatezoom.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  
+</head>
+
+<body>
+  <div>
+    <h5>
+       This site is inspired by the Albania Biennale, where a collection of mundane photos are hanging from the celling and slowing rotating. Viewers cannot stare at one image for as long as they wish. By losing control over viewing time and angle, viewers are suddenly loaded with an explosion of visual information, and as our loyal brain tries to capture as much information as possible, the flat photographas are abstracted away from its individual theme and collectively create a vague yet intimate impression of what it is like to live the photographer's life and see through their eyes/lens.
+    </h5>
+  </div>
+
+
+<script type = "text/javascript" src = "PopUp_JQuery.js"> </script>
+</body>
+
+</html>
